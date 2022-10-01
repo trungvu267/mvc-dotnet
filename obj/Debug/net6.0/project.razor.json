@@ -16318,6 +16318,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\TrungVu\\Desktop\\mvc-dotnet\\Views\\GiaiPhuongTrinh\\Index.cshtml",
+      "TargetPath": "Views\\GiaiPhuongTrinh\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\TrungVu\\Desktop\\mvc-dotnet\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"

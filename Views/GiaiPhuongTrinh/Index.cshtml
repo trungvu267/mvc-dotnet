@@ -1,0 +1,36 @@
+@{
+    ViewData["Title"] = "Giai Phuong Trinh";
+}
+
+<div class="text-center">
+    @* <h1 class="display-6">Giai Phuong Trinh Bac 1: ax+b = 0</h1>
+    <form method="POST" asp-action="Index">
+      <div class="py-2">
+        <label for="heSoA">Nhập vào a</label>
+        <input type="text" id="heSoA" placeholder="Nhập hệ số a" name="a"/>
+
+      </div>
+      <div class="py-3">
+        <label for="heSoB">Nhập vào b</label>
+        <input type="text" id="heSoB" placeholder="Nhập hệ số b" name="b"/>
+
+      </div>
+      <input type="submit" />
+    </form>
+    <h1>Kết quả:</h1>
+    <p>@ViewBag.heSoA X + @ViewBag.heSoB = 0 Kết quả: @ViewBag.result</p>
+   <h1>Giải phương trình bậc 1 Ax2 + Bx + C = 0</h1> *@
+<form  method="POST" asp-action="Index">
+  <p>Nhập vào a</p>
+  <input type = 'number' id="he_so_a" name="a" />
+  <p>Nhập vào b</p>
+  <input type = 'number' id="he_so_b" name="b" />
+  <p>Nhập vào c</p>
+  <input type = 'number' id="he_so_c" name="c" />
+  <div>
+    <input type="submit" value="Kết quả"  />
+  </div>
+</form>
+
+<p>Kết quả Phương trình @ViewData["he_so_a"]x^2 + @ViewData["he_so_b"]x + @ViewData["he_so_c"] = 0 là: @ViewData["message"]</p>
+</div>
